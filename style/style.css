@@ -2,33 +2,57 @@ body {
     height: 2000px;
 }
 
+/*Navbar starts*/
 
-.navbar-li {
-    list-style: none;
+
+div > nav {
     text-align: center;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    padding-top: 10
     
 }
 
-nav {
-    
+div > nav:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    transition-duration: 0.5s;
 }
 
-nav > div {
+div > nav > ul {
+    padding-top: 20
+}
+
+div > nav > ul > li {
     display: inline;
+    margin-left: 20;
 }
 
-nav > div > ul > li {
-    display: inline;
-    margin-left: 20
+
+div > nav > ul > li:first-child {
+    margin-left: 0;
 }
 
-nav > div > ul > li > a {
+div > nav > ul > li > a {
     color: #fff;
     font-family: raleway;
     font-size: 25px;
 }
 
-nav > div > ul > li > a:hover {
+div > nav > ul > li > a:hover {
     text-decoration: none;
     transition-duration: 0.5s;
+}
+
+.navbar-li {
+    padding: 0;
+}
+
+/*Navbar end*/
+
+/*first section starts*/
+
+#background1 {
+    content: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1479227331/pexels-photo-205316_qwi56p.png);
+
 }
