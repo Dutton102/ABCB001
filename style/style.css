@@ -13,18 +13,22 @@ nav {
     
 }
 
-nav > ul > li {
+nav > div {
+    display: inline;
+}
+
+nav > div > ul > li {
     display: inline;
     margin-left: 20
 }
 
-nav > ul > li > a {
+nav > div > ul > li > a {
     color: #fff;
     font-family: raleway;
     font-size: 25px;
 }
 
-nav > ul > li > a:hover {
+nav > div > ul > li > a:hover {
     text-decoration: none;
     transition-duration: 0.5s;
 }
