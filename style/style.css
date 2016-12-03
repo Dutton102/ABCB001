@@ -1,0 +1,30 @@
+body {
+    height: 2000px;
+}
+
+
+.navbar-li {
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav {
+    
+}
+
+nav > ul > li {
+    display: inline;
+    margin-left: 20
+}
+
+nav > ul > li > a {
+    color: #fff;
+    font-family: raleway;
+    font-size: 25px;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
