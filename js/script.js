@@ -1,6 +1,8 @@
 // Script
 $(document).ready(function(){
-	var forside = $('body#forside')
+	var forside = $('body#forside');
+	var Brassøe = $('#brassøeknap');
+	var Dutton = $('#duttonknap');
 		function swapStyleSheet(sheet) {
 		document.getElementById('stylesheet').setAttribute('href', sheet);
 	}
@@ -13,10 +15,10 @@ $(document).ready(function(){
 		   '<button id="brassøeknap">Brassøe</button>' +
 		    '</div>');
 
-		$('#brassøeknap').click(function(){
+		Brassøe.click(function(){
 			swapStyleSheet('style/style.css');
 		});
-		$('#duttonknap').click(function(){
+		Dutton.click(function(){
 			swapStyleSheet('style/dutton.css');
 		});
 	}
