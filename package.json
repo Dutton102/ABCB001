@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "3.9.1",
+  "description": "ABCB001",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dutton102/ABCB001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dutton102/ABCB001/issues"
+  },
+  "homepage": "https://github.com/Dutton102/ABCB001#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
