@@ -1,6 +1,9 @@
 body {
-    height: 2000px;
+    height: 100%;
+    position: relative;
+    overflow-y: scroll;
 }
+
 
 /*Navbar starts*/
 
@@ -9,7 +12,8 @@ div > nav {
     text-align: center;
     opacity: 0.8;
     filter: alpha(opacity=80);
-    padding-top: 10
+    padding-top: 10;
+    transition-duration: 0.5s;
     
 }
 
@@ -37,6 +41,7 @@ div > nav > ul > li > a {
     color: #fff;
     font-family: raleway;
     font-size: 25px;
+    transition-duration: 0.5s;
 }
 
 div > nav > ul > li > a:hover {
@@ -50,9 +55,20 @@ div > nav > ul > li > a:hover {
 
 /*Navbar end*/
 
+}
+
 /*first section starts*/
 
 #background1 {
     content: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1479227331/pexels-photo-205316_qwi56p.png);
 
 }
+
+/*First section ends*/
+
+/*Second section starts*/
+
+#background2 {
+    Content: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1480787164/pexels-photo-116246_eqqjwd.jpg);
+}
+
