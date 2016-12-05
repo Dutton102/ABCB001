@@ -29,7 +29,7 @@ div > nav > ul {
 
 div > nav > ul > li {
     display: inline;
-    margin-left: 20;
+    margin-left: 45;
 }
 
 
@@ -59,7 +59,7 @@ div > nav > ul > li > a:hover {
 /*first section starts*/
 
 #background1 {
-    content: url(http://res.cloudinary.com/difgcw5vd/image/upload/c_scale,h_1165/v1479227331/pexels-photo-205316_qwi56p.png);
+    content: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1479227331/pexels-photo-205316_qwi56p.png);
 }
 
 /*First section ends*/
