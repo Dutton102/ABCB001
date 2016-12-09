@@ -35,6 +35,7 @@ div > nav > ul > li {
 
 div > nav > ul > li:first-child {
     margin-left: 0;
+    margin-right: 25px;
 }
 
 div > nav > ul > li > a {
@@ -59,7 +60,11 @@ div > nav > ul > li > a:hover {
 /*first section starts*/
 
 #background1 {
-    content: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1479227331/pexels-photo-205316_qwi56p.png);
+    background-image: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1479227331/pexels-photo-205316_qwi56p.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 /*First section ends*/
@@ -67,7 +72,11 @@ div > nav > ul > li > a:hover {
 /*Second section starts*/
 
 #background2 {
-    content: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1480787164/pexels-photo-116246_eqqjwd.jpg);
+    background-image: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1479227331/pexels-photo-205316_qwi56p.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 /*Second section ends*/
@@ -75,7 +84,11 @@ div > nav > ul > li > a:hover {
 /*Third sections starts*/
 
 #background3 {
-    content: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1480807990/desk-white-black-header_gw2lcw.jpg);
+    background-image: url(http://res.cloudinary.com/difgcw5vd/image/upload/v1479227331/pexels-photo-205316_qwi56p.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 
